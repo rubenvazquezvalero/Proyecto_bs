@@ -129,11 +129,6 @@ fieldset[disabled] .navbar-estilo-mod .btn-link:focus {
   color: #444;
 }
 
-.navbar-brand {
-	padding: 33px 15px !important;
-	margin: 0 !important;
-}
-
 @media (min-width: 768px){
 	.navbar-header {
 		float: none !important;
@@ -142,6 +137,10 @@ fieldset[disabled] .navbar-estilo-mod .btn-link:focus {
 		border-radius: 4px;
 	/* padding-top: 33px !important;
 	padding-bottom: 34px !important; */
+	}
+	.navbar-brand {
+		padding: 33px 15px !important;
+		margin: 0 !important;
 	}
 }
 
@@ -161,5 +160,6 @@ fieldset[disabled] .navbar-estilo-mod .btn-link:focus {
 		clear: left;
 		text-align: center;
 		padding-top: 0 !important;
+		padd
 	}
 }
