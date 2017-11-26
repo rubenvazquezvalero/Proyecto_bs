@@ -53,7 +53,7 @@
 .navbar-estilo-mod .navbar-nav > .active > a:hover,
 .navbar-estilo-mod .navbar-nav > .active > a:focus {
   color: #fff;
-  background-color: #080808;
+  background-color: #17202A; /* editado */
 }
 .navbar-estilo-mod .navbar-nav > .disabled > a,
 .navbar-estilo-mod .navbar-nav > .disabled > a:hover,
@@ -78,8 +78,8 @@
 .navbar-estilo-mod .navbar-nav > .open > a,
 .navbar-estilo-mod .navbar-nav > .open > a:hover,
 .navbar-estilo-mod .navbar-nav > .open > a:focus {
-  color: #fff;
-  background-color: #080808;
+  color: #FFC103;
+  background-color: #17202A; /* editado */
 }
 @media (max-width: 767px) {
   .navbar-estilo-mod .navbar-nav .open .dropdown-menu > .dropdown-header {
@@ -144,7 +144,12 @@ fieldset[disabled] .navbar-estilo-mod .btn-link:focus {
 		float: left !important;
 	}
 	.navbar-nav > li > a {
-	padding-top: 33px !important;
-	padding-bottom: 34px !important;
+		border-radius: 4px;
+	/* padding-top: 33px !important;
+	padding-bottom: 34px !important; */
+	}
+	.navbar-nav {
+		padding-top: 18px !important;
+		padding-bottom: 19px !important;
 	}
 }
