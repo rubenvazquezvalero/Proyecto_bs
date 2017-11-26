@@ -1,0 +1,337 @@
+@charset "utf-8";
+
+* {
+	box-sizing: border-box;
+}
+#titpag{
+	width: 80%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5em;
+	letter-spacing:1px;
+	text-shadow: 1px 1px 1px #fff;
+	text-align: center;
+	color: #FFC103;
+}
+h1 {
+	margin: 0;
+}
+h2 {
+	text-align: center;
+	margin: 0;
+	padding: 10px 0;
+}
+p {
+	text-align: justify;
+}
+
+body {
+	/* background-image: url(imagenes/background.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat; */
+	background-color: #17202A;
+	/* background: linear-gradient(141deg, rgba(36,106,153,1) 0%, rgba(27,79,114,1) 51%, rgba(18,53,76,1) 75%); */
+	/*border: 1px solid #1B4F72;*/
+	margin: 0;
+}
+
+.limit-w {
+	max-width: 1200px;
+	min-width: 480px;
+}
+.center {
+	margin: 0 auto;
+}
+
+/* Imagenes */
+.aimg {
+	max-width: 200px;
+	margin: 0 20px;
+	float: right;
+}
+.cimg {
+	max-width: 800px;
+	margin: 40px auto;
+}
+.timg {
+	width: 100%;
+}
+.cita {
+	font-size: 15px;
+}
+
+/*    Adaptar videos de yt a la página    */
+.delimitador {
+	max-width: 800px;
+	margin: 20px auto;
+}
+.vid-yt {
+    width: 100%;
+    padding-top: 56.25%;
+    position: relative;
+}
+.vid-yt iframe {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+}
+
+header {
+	/*background-image: url(imagenes/photovoltaic-2138994.jpg);
+	background-size: cover;
+	background-attachment: fixed;*/
+	width: 100%;
+}
+#cabecera {
+	/*background-color: rgba(255,255,255,0.5);*/
+	/* background-color: #1B4F72; */
+	/* background: linear-gradient(141deg, rgba(36,106,153,1) 0%, rgba(27,79,114,1) 51%, rgba(18,53,76,1) 75%); */
+	/*background-image: url(imagenes/cabecera.png);
+	background-size: cover;*/
+	/* border-left: 1px solid #fff; */
+	/* border-right: 1px solid #fff; */
+	padding: 10px 30px 10px 30px;
+	margin: 0;
+}
+/* Logotipo */
+#contlogo {
+	width: 10%;
+	float: left;
+}
+#logo {
+	background-image: url(imagenes/logopanel.svg);
+	/* margin: 10px 10px 10px 30px; */
+	width: 100%;
+	padding-top: 83.3333333%;
+	background-repeat: no-repeat;
+}
+
+#google {
+	position: fixed;
+	top: 10px;
+	right: 10px;
+}
+#q {
+	background: url(http://www.google.com/cse/static/images/1x/googlelogo_lightgrey_46x16dp.png) left center no-repeat #fff;
+}
+button {
+	vertical-align: middle;
+	border-radius: 10px;
+	background-color: grey;
+}
+button:hover {
+	background-color: silver;
+}
+
+/* Redes sociales */
+#socialm {
+	position: absolute;
+	float: right;
+	top: 5px;
+	right: 30px;
+}
+#socialm>a {
+	float: left;
+	margin: 0 5px;
+}
+.smicon {
+	width: 24px;
+	height: 24px;
+}
+.smicon:hover {
+	transform:scale(1.3,1.3);
+	transition: all 0.5s ease;
+}
+#fb {
+	background-image: url(imagenes/sm/facebook.svg);
+}
+#tw {
+	background-image: url(imagenes/sm/twitter.svg);
+}
+#gp {
+	background-image: url(imagenes/sm/google+.svg);
+}
+#em {
+	background-image: url(imagenes/sm/mailed.svg);
+}
+
+.clearfix{
+	overflow: auto;
+}
+.content {
+	background-color: #FFC103;
+	width: 100%;
+}
+.contp{
+	padding: 15px 0px;
+}
+.articulo {
+	/* border: 1px solid #2D404C; */
+	font-family: 'Roboto', sans-serif;
+	color: #17202A;
+	background-color: #F7F7F7;
+	border-radius: 10px;
+	padding: 20px 100px;
+	min-height: 1080px;
+}
+#historia {
+	display: none;
+}
+
+/* Menu */
+.menup {
+	width: 100%;
+	background-color: #FFC103;
+	padding: 5px 5px 0 5px;
+	/* border-top: 5px solid #FFC103;
+	border-left: 5px solid #FFC103;
+	border-right: 5px solid #FFC103; */
+	border-radius: 10px 10px 0 0;
+	/* border-bottom: 1px solid #fff; */
+	clear: left;
+}
+#menu{
+	position: relative;
+	max-width: 100%;
+	background-color: #2D404C;
+	border-radius: 15px;
+}
+#menu ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+	height: 36px;
+	max-width: 800px;
+}
+#menu ul a {
+	text-align: center;
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    font-weight: bold;
+    font-size:13px;
+    padding:10px;
+	font-family: 'Roboto', sans-serif;
+    /* font-family: Helvetica, Arial, sans-serif; */
+	/*text-transform:uppercase;*/
+	letter-spacing:1px;
+	text-shadow: 1px 1px 1px #111111;
+}
+#menu>ul>li>a {
+	text-transform:uppercase;
+}
+#menu ul li {
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+	/* background-color: #1B4F72; */
+	width: 20%;
+	/* border-left: 1px solid #fff; */
+	/* border-right: 1px solid #fff; */
+}
+#menu .cdos li {
+	background-color: #2D404C;
+	background-color: rgba(45,64,76,0.95);
+	/* background-color: #477FA5; */
+	/* background-color: #3E6E8E; */
+}
+#menu ul a:hover {
+	color: orange;
+}
+#menu ul>li:hover {
+	/* background-color: #2D404C; */
+    /* background-color: #477FA5; */
+	/* background-color: #3E6E8E; */
+	/*border: 2px solid red;*/
+}
+#menu .cdos li:hover {
+	/* background-color: #3D5566; */
+	background-color: rgba(61,85,102,0.95);
+	transition: all 0.7s ease;
+	/* background-color: #1B4F72; */
+}
+#menu ul .cdos {
+    display: none;
+    position: absolute;
+    padding: 0;
+	width: 100%;
+}
+#menu ul .cdos li {
+    float:none;
+	border: none;
+	width: 100%;
+}
+#menu ul ul a {
+    line-height:120%;
+    padding:10px 15px;
+}
+#menu ul li:hover .cdos {
+    display: block;
+	animation: mymove 0.5s;
+}
+
+@keyframes mymove {
+    from {left: 30px;opacity: 0;}
+    to {left: 0px;opacity: 1;}
+}
+
+/* Adaptar */
+@media (max-width: 1150px) {
+	.nodisp {
+		display: none;
+	}
+	#menu ul li {
+	width: 18%;
+	}
+}
+@media screen and (max-width: 1020px) {
+	.nodispm {
+		display: none;
+	}
+	.menup {
+		display: none;
+		position: absolute;
+		top:0;
+		margin: 0 auto;
+	}
+}
+
+.gotop {
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	padding: 5px;
+	border-radius: 3px;
+	/* background-color: #CDE4F2; */
+	background-color: rgba(205,228,242,0.5);
+	transition: background-color 0.7s ease;
+}
+.gotop:hover {
+	background-color: #FFC103;
+	transition: all 0.7s ease;
+}
+.gotopimg {
+	background-image: url(imagenes/inicio.svg);
+	width: 2em;
+	height: 2em;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+footer {
+	clear: left;
+	background-color: #2D404C;
+	/* background-color: #1B4F72; */
+	padding: 10px;
+}
+#logof {
+	background-image: url(imagenes/logopanel.svg);
+	margin: 10px;
+	width: 100px;
+	height: 90px;
+	background-repeat: no-repeat;
+	filter: grayscale(100%);
+}
