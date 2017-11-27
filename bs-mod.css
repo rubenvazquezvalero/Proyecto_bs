@@ -1,4 +1,5 @@
 .navbar-mod {
+	font-family: 'Roboto', sans-serif;
   position: relative;
   min-height: 87px;
   margin-bottom: 20px;
@@ -160,6 +161,8 @@ fieldset[disabled] .navbar-estilo-mod .btn-link:focus {
 		clear: left;
 		text-align: center;
 		padding-top: 0 !important;
-		padd
+	}
+	.container {
+		padding: 0 !important;
 	}
 }

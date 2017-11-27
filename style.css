@@ -1,6 +1,5 @@
 @charset "utf-8";
 
-
 #titpag{
 	width: 80%;
 	font-family: 'Roboto', sans-serif;
@@ -11,21 +10,25 @@
 	color: #FFC103;
 }
 h1 {
+	font-family: 'Roboto', sans-serif;
 	margin: 0;
 	font-size: 2em !important;
 	font-weight: bold !important;
 }
 h2 {
+	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	padding: 10px 0;
 	font-weight: bold !important;
 	text-transform: uppercase;
 }
 h3 {
+	font-family: 'Roboto', sans-serif;
 	padding: 5px 0;
 	font-weight: bold !important;
 }
 h4 {
+	font-family: 'Roboto', sans-serif;
 	padding: 5px 0;
 	font-weight: bold !important;
 }
