@@ -1,14 +1,5 @@
 @charset "utf-8";
 
-#titpag{
-	width: 80%;
-	font-family: 'Roboto', sans-serif;
-	font-size: 1.5em;
-	letter-spacing:1px;
-	text-shadow: 1px 1px 1px #fff;
-	text-align: center;
-	color: #FFC103;
-}
 h1 {
 	font-family: 'Roboto', sans-serif;
 	margin: 0;
@@ -169,9 +160,15 @@ button:hover {
 .content {
 	background-color: #FFC103;
 	width: 100%;
-}
-.contp{
 	padding: 15px 0px;
+}
+.principal{
+	font-family: 'Roboto', sans-serif;
+	color: #17202A;
+	background-color: #F7F7F7;
+	padding: 20px 50px;
+	border-radius: 10px;
+	min-height: 1080px;
 }
 .articulo {
 	/* border: 1px solid #2D404C; */
@@ -234,4 +231,118 @@ footer {
 		float: none;
 		margin: 30px auto;
 	}
+}
+
+.ppt {
+	color: #F7F7F7;
+	text-shadow: 1px 1px 1px #111111;
+	background-color: #17202A;
+	letter-spacing:1px;
+	display: inline-block;
+	padding: 8px 16px;
+	margin: 0;
+	text-transform: uppercase;
+}
+.ppt-color {
+	background-color: #2D404C;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 30px;
+	border-left: 1px solid #F7F7F7;
+	border-right: 1px solid #F7F7F7;
+}
+.ppst-color {
+	background-color: #2D404C;
+	text-align: center;
+	margin: 30px 0px;
+	border-left: 1px solid #F7F7F7;
+	border-right: 1px solid #F7F7F7;
+}
+.margen {
+	padding-bottom: 10px;
+}
+.test {
+	height: 300px;
+	/* border: 1px solid #ccc; */
+	overflow: hidden;
+	/* border-radius: 4px; */
+	position: relative;
+}
+.test2 {
+	height: 600px;
+	/* border: 1px solid #ccc; */
+	overflow: hidden;
+	/* border-radius: 4px; */
+	position: relative;
+}
+.test-img-th {
+	background-position: 50% 50%;
+	background-size: cover;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transition: all 0.35s ease;
+}
+.quees{
+	background-image: url(imagenes/solar-photovoltaic-2666105.jpg);
+}
+.historia{
+	background-image: url(imagenes/historia.jpg);
+}
+.autoconsumo {
+	background-image: url(imagenes/autoconsumo.jpg);
+}
+.paneles {
+	background-image: url(imagenes/paneles.jpg);
+}
+.mono {
+	background-image: url(imagenes/monocristalino.jpg);
+}
+.poli {
+	background-image: url(imagenes/policristalino.jpg);
+}
+.capa {
+	background-image: url(imagenes/capafina.jpg);
+}
+.inversor {
+	background-image: url(imagenes/inversores.jpg);
+}
+.regulador {
+	background-image: url(imagenes/regulador.jpg);
+}
+.img-th-sc:hover .test-img-th {
+	transform: scale(1.02);
+	transition: all 0.35s ease;
+	opacity: 0.8;
+}
+ .img-th-sc:hover .indx-link > a > h4 {
+	 color: #FFC103;
+ }
+
+.indx-link {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	padding: 15px;
+	/* background-color: #2D404C; */
+	background: linear-gradient(to bottom,rgba(0,0,0,0)0,#17202A 100%);
+}
+.indx-link > a > h4 {
+	color: #F7F7F7;
+	/* font-family: 'Roboto', sans-serif; */
+	text-shadow: 1px 1px 1px #111111;
+	/* font-weight: bold; */
+	/* font-size: 24px; */
+	/* letter-spacing:1px; */
+	margin: 0;
+	text-transform: uppercase;
+}
+.indx-link > a:hover {
+	color: #FFC103;
+}
+
+.nopadding {
+	padding: 0 !important;
+	border: 1px solid #F7F7F7;
 }

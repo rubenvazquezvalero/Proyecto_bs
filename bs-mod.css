@@ -139,9 +139,9 @@ fieldset[disabled] .navbar-estilo-mod .btn-link:focus {
 	/* padding-top: 33px !important;
 	padding-bottom: 34px !important; */
 	}
-	.navbar-brand {
-		padding: 33px 15px !important;
-		margin: 0 !important;
+	.navbar-header > .navbar-brand {
+		padding: 33px 15px;
+		margin: 0;
 	}
 }
 
@@ -155,12 +155,13 @@ fieldset[disabled] .navbar-estilo-mod .btn-link:focus {
 		padding-bottom: 19px !important;
 	}
 }
-@media (max-width: 768px){
-	.navbar-brand {
+@media (max-width: 767px){
+	.navbar-header > .navbar-brand {
 		width: 100%;
 		clear: left;
 		text-align: center;
-		padding-top: 0 !important;
+		padding-top: 0;
+		height: 35px;
 	}
 	.container {
 		padding: 0 !important;
